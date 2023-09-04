@@ -273,6 +273,10 @@ z-index: 1;
     align-items: flex-start;
     flex-direction: row;
 }
+
+.page .right, .page .left {
+    padding-top: 10vh;
+}
 .page .left {
     width: 40%;
     text-align: left;
@@ -281,6 +285,7 @@ z-index: 1;
 }
 
 .page .right {
+
     text-align: left;
     width: 40%;
     height: max-content;
@@ -300,7 +305,7 @@ z-index: 1;
     color: var(--butCol);
     border: none;
     cursor: pointer;
-    font-size: 3vmin;
+    font-size: 3vmax;
     transition: all 0.5s ease-in-out;
 }
 

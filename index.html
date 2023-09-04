@@ -45,17 +45,18 @@
     </nav>
     <main class="firstPage">
         <div class="cente">
-            <h1 class="enlargeH1 corTit">Trading Errors and Valuable Lessons Masterclass</h1>
+            <h1 class="enlargeH1 corTit">Trading Mistakes and Valuable Lessons Masterclass</h1>
             <h3>by Sourabh Sisodiya</h3>
             <br>
             <h2>Join Our <span class="highlight">90-Minute Live Workshop to Uncover Unknown Trading Risks</span></h2>
             <br>
             <h3>9th September | 11 AM</h3>
             <br>
-            <a href="#register"></a>
+            <a href="#register">
             <button class="RegisterBut">
                 <p>Register Now</span>
             </button>
+        </a>
             <br><br><br>
             <img id="webMainImg" src="img/new.png" alt="">
             <!-- <div class="coupon-container copy-button">
@@ -135,12 +136,13 @@
                 <input type="hidden" name="_type" value="register">
                 <input type="hidden" name="_redirect" value="https://rpranaykumarreddy.github.io/qtdesign">
                 <!--Need to change-->
-                <input type="hidden" name="_page" value="Webinar">
+                <input type="hidden" name="_page" value="Trading Mistakes Masterclass">
                 <input type="text" name="_honey" style="display:none">
                 <input class="form" type="text" id="fname" name="name" placeholder="Name" required>
-                <input class="form" type="text" id="fphonenumber" name="phonenumber" placeholder="Phone No"
+                <input class="form" type="text" id="fphonenumber" name="phonenumber" placeholder="WhatsApp Number"
                     pattern="[0-9]+" required>
                 <input class="form" type="email" id="fmail" name="mail" placeholder="E-mail">
+                <label for="name">*Fill the details for receiving the lin via Mail & WhatsApp</label>
                 <div class="button">
                     <div class="layer"></div>
                     <div class="botdot"></div>
@@ -193,14 +195,6 @@
             </div>
         </div>
     </main>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <div class="whatsapp-icon">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=918104964226">
-            <img src="img/WhatsApp.png" alt="WhatsApp Icon" width="100" height="100">
-            <br>
-            <p>Chat with us</p>
-        </a>
-    </div>
     <footer id="footer">
         <div class="footer-flex">
             <div class="footer-left">
@@ -232,55 +226,6 @@
                     </ul>
                 </div>
 
-            </div>
-            <div class="footer-right">
-                <h2 id="call">Schedule A Call</h2>
-                <br>
-                <form name="Call" autocomplete="off" action="/qtdesign/form" method="get">
-                    <input type="hidden" name="_type" value="call">
-                    <input type="hidden" name="_redirect" value="https://rpranaykumarreddy.github.io/qtdesign">
-                    <!--Need to change-->
-                    <input type="hidden" name="_page" value="MPTA">
-                    <input type="text" name="_honey" style="display:none">
-                    <input class="form" type="text" id="fname" name="name" placeholder="Name" required>
-                    <input class="form" type="text" id="fphonenumber" name="phonenumber" placeholder="Phone No"
-                        pattern="[0-9]+" required>
-                    <input class="form" type="email" id="fmail" name="mail" placeholder="E-mail">
-                    <textarea class="form" id="fmessage" name="message" placeholder="Tell us your query..."
-                        style="height: 50px;"></textarea>
-                    <label for="date"><b>Preferred Date for a call</b></label>
-                    <input type="date" name="date" id="fdate"><br>
-                    <label for="timing"><b>Preferred Time for a call</b></label>
-                    <select name="timing" id="ftiming">
-                        <option value="Optional">Timing</option>
-                        <option value="9:00 AM - 9:30 AM">9:00 AM - 9:30 AM</option>
-                        <option value="9:30 AM - 10:00 AM">9:30 AM - 10:00 AM</option>
-                        <option value="10:00 AM - 10:30 AM">10:00 AM - 10:30 AM</option>
-                        <option value="10:30 AM - 11:00 AM">10:30 AM - 11:00 AM</option>
-                        <option value="11:00 AM - 11:30 AM">11:00 AM - 11:30 AM</option>
-                        <option value="11:30 AM - 12:00 PM">11:30 AM - 12:00 PM</option>
-                        <option value="12:00 PM - 12:30 PM">12:00 PM - 12:30 PM</option>
-                        <option value="12:30 PM - 1:00 PM">12:30 PM - 1:00 PM</option>
-                        <option value="1:00 PM - 1:30 PM">1:00 PM - 1:30 PM</option>
-                        <option value="1:30 PM - 2:00 PM">1:30 PM - 2:00 PM</option>
-                        <option value="2:00 PM - 2:30 PM">2:00 PM - 2:30 PM</option>
-                        <option value="2:30 PM - 3:00 PM">2:30 PM - 3:00 PM</option>
-                        <option value="3:00 PM - 3:30 PM">3:00 PM - 3:30 PM</option>
-                        <option value="3:30 PM - 4:00 PM">3:30 PM - 4:00 PM</option>
-                        <option value="4:00 PM - 4:30 PM">4:00 PM - 4:30 PM</option>
-                        <option value="4:30 PM - 5:00 PM">4:30 PM - 5:00 PM</option>
-                        <option value="5:00 PM - 5:30 PM">5:00 PM - 5:30 PM</option>
-                        <option value="5:30 PM - 6:00 PM">5:30 PM - 6:00 PM</option>
-                        <option value="6:00 PM - 6:30 PM">6:00 PM - 6:30 PM</option>
-                        <option value="6:30 PM - 7:00 PM">6:30 PM - 7:00 PM</option>
-                    </select>
-                    <br><br>
-                    <div class="button">
-                        <div class="layer"></div>
-                        <div class="botdot"></div>
-                        <input id="fsubmit" type="submit" value="Submit">
-                    </div>
-                </form>
             </div>
         </div>
         <div class="footer-bottom">
