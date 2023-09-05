@@ -251,13 +251,18 @@ main {
     align-items: center;
 }
 
-
+dl{
+    padding-left: 10px;
+}
+dd{
+    padding-left: 20px;
+}
 .firstPage {
     margin-top: 20vh;
     z-index: 1;
 }
 #webMainImg{
-max-width: 75%;
+max-width: 75vw;
 margin-bottom: -7px;
 z-index: 1;
 }
