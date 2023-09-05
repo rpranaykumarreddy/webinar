@@ -344,8 +344,11 @@ z-index: 1;
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
-
+/* .wid80{
+    width: 80vw;
+} */
 .corTit {
+    text-wrap: wrap;
     background: linear-gradient(-30deg, #6447f8 0%, #44bae8 100%);
     background-size: cover;
     color: #fff;
@@ -477,7 +480,8 @@ z-index: 1;
 }
 
 .divTicker {
-    width: 100%;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1952,6 +1956,9 @@ img {
         transform: translateX(0);
     }
 }
+/* .wid80{
+    width: 90vw;
+} */
     .corTit {
         font-size: 5vh;
     }
