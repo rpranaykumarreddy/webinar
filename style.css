@@ -253,6 +253,8 @@ main {
 
 dl{
     padding-left: 10px;
+}dt{
+    padding-bottom: 5px;
 }
 dd{
     padding-left: 20px;
@@ -270,17 +272,17 @@ z-index: 1;
 .page {
     z-index: 100;
     background-color: #151515;
-    padding: 5vh 5vw;
+    padding: 0vh 5vw;
     height: fit-content;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
-}
-
-.page .right, .page .left {
     padding-top: 10vh;
+}
+.noPad{
+    padding-top: 2vh !important;
 }
 .page .left {
     width: 40%;
@@ -335,14 +337,14 @@ z-index: 1;
 }
 
 .imgList li {
-    line-height: 20px;
+    line-height: 25px;
     list-style: none;
     padding-left: 30px;
     margin-bottom: 10px;
     background-image: url('img/favicon.png');
     background-size: 20px;
     background-repeat: no-repeat;
-    background-position: 0 50%;
+    background-position: 0 0%;
 }
 /* .wid80{
     width: 80vw;
@@ -541,6 +543,9 @@ z-index: 1;
 
 .ticker-container {
     width: 100%;
+}
+.proTicker{
+    width: 40vw !important;
 }
 
 .ticker-container .ticker-tape {
@@ -789,6 +794,7 @@ z-index: 1;
 }
 
 .Testi {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
@@ -799,7 +805,7 @@ z-index: 1;
 .Testi .tesName {
     margin: 1vh 1vw;
     padding: 20px;
-    width: 100%;
+    max-width: 35vw;
     border: var(--labelBor) 2px solid;
     position: static;
     border-radius: 20px;
@@ -1855,13 +1861,15 @@ img {
 
     .page .left {
         width: 90%;
-        margin-bottom: 10vh;
+        margin-bottom: 2vh;
+        padding-top: 5vh;
         justify-content: center;
     }
 
     .page .right {
         width: 90%;
-        margin-bottom: 10vh;
+        margin-bottom: 2vh;
+        padding-top: 5vh;
     }
 
     .page .right {
@@ -1928,6 +1936,10 @@ img {
     margin: 1vh 2vw;
 }
 
+.proTicker{
+    width: 90vw !important;
+}
+
 @-webkit-keyframes scroll {
     0% {
         transform: translateX(0);
@@ -1963,10 +1975,15 @@ img {
         font-size: 5vh;
     }
 
+    
     .Testi {
         flex-direction: column;
     }
 
+.Testi .tesName {
+    margin: 1vh 1vw;
+    padding: 20px;
+    max-width: 80vw;}
     .tesName .titDiv {
         width: 80vw;
     }
